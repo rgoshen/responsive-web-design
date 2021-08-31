@@ -1,0 +1,40 @@
+<style>
+  #box-container {
+    background: gray;
+    height: 500px;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+
+  #box-1 {
+    background-color: dodgerblue;
+    width: 200px;
+    height: 200px;
+    font-size: 24px;
+    /* flex-shrink: 1; */
+    /* flex-grow: 1; */
+    /* flex-basis: 10em; */
+    /* flex: 2 2 150px; */
+    /* order: 2; */
+    align-self: center;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 200px;
+    height: 200px;
+    font-size: 24px;
+    /* flex-shrink: 2; */
+    /* flex-grow: 2; */
+    /* flex-basis: 20em; */
+    /* flex: 1 1 150px; */
+    /* order: 1; */
+    align-self: flex-end;
+  }
+</style>
+<div id="box-container">
+  <div id="box-1"><p>Blue</p></div>
+  <div id="box-2"><p>Red</p></div>
+</div>
